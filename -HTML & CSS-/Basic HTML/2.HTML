@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Belajar Basic HTML(2)</title>
+</head>
+<body>
+	<!-- Tag untuk ke halaman html yang lain-->
+	<a href="1.HTML">Halaman 1</a>
+	<a href="2.HTML">Halaman 2</a>
+
+	<!-- JUDUL -->
+	<h1>Belajar Basic HTML Halaman 2</h1>
+	<p>Berikut Halaman 2</p>
+
+	<br>
+
+	<!-- TAG FORM -->
+	<P>TAG MEMBUAT FORM :
+		<form>
+			<fieldset> <!-- Digunakan untuk memisahkan form -->
+				<legend>Nama dan Pesan</legend> <!-- Digunakan untuk memberi label pada daerah fieldset -->
+				<label for="nama_user">Nama : </label>
+				<input type="text" placeholder="Nama" value="Nilai Masukkan Form" id="nama_user">
+				<br><br>
+				<label for="pesan_user">Pesan : </label>
+				<textarea cols="100" rows="2" id="pesan_user">Nilai Masukkan Form</textarea>
+				<br><br>
+			</fieldset>
+			<fieldset>
+				<legend>Data Pribadi</legend>
+				<!-- TAG CHECKBOX -->
+				<p>TAG MEMBUAT CHECKBOX :</p>
+				<label>Hobi : </label><br>
+				<input type="checkbox" name="hobi_user" value="0">Menulis <br>
+				<input type="checkbox" name="hobi_user" value="1">Menggambar <br>
+				<input type="checkbox" name="hobi_user" value="2"checked>Menghalu <br>
+				<!-- TAG PILIHAN -->
+				<p>TAG MEMBUAT PILIHAN</p>
+				<label>Gender : </label><br>
+				<input type="radio" name="gender_user" value="0" checked>Laki-Laki<br>
+				<input type="radio" name="gender_user" value="1">Perempuan<br><br>
+				<!-- TAG SELECT & OPTION -->
+				<label>Bahasa Pemrograman : </label><br>
+				<select>
+					<optgroup label="Frontend">
+					<option value="0">HTML</option>
+					<option value="1">CSS</option>
+					</optgroup>
+					<optgroup Label="Backend">
+					<option value="2">PHP</option>
+					<option value="3">MySQL</option>
+					</optgroup>
+				</select>
+			</fieldset><br>
+			<input type="submit" value="Kirim Data Form">
+		</form>
+	</P>
+
+	<br>
+
+	<!-- TAG TABEL-->
+	<p>TAG MEMBUAT TABEL : </p>
+	<table border="1">
+		<caption>Daftar Mahasiswa</caption>
+		<tr>
+			<td>Nama Mahasiswa</td>
+				<td>NIM</td>
+		</tr>
+		<tr>
+			<td> Unknown 1 </td>
+			<td> 123456789 </td>
+		</tr>
+		<tr>
+			<td> Unknown 2 </td>
+			<td> 123456789 </td>
+		</tr>
+	</table>
+
+	<!-- TAG LIST-->
+	<p>TAG MEMBUAT LIST : </p>
+	<ul> <!--List tidak berurutan-->
+		<li>Kucing</li>
+		<li>Kelinci</li>
+		<li>Kecoa</li>
+	</ul>
+
+	<ol> <!--List berurutan-->
+		<li>Kucing</li>
+		<li>Kelinci</li>
+		<li>Kecoa</li>
+	</ol>
+
+	<dl> <!--List dengan deskripsi-->
+		<dt>Kucing</dt>
+		<dd>Berkaki Empat</dd>
+		<dt>Ayam</dt>
+		<dd>Berkaki Dua</dd>
+	</dl>
+
+	<!--
+		Symbol & Entities
+		non-breaking : space &nbsp; 
+		< :	less than :	&lt;
+		> :	greater than : &gt;
+		& : ampersand : &amp;
+		" : double quotation mark : &quot;
+		' : single quotation mark (apostrophe) : &apos;
+		¢ : cent : &cent;
+		£ : pound : &pound;
+		¥ : yen : &yen;
+		€ : euro : &euro;
+		© : copyright : &copy;
+		® : registered trademark : &reg;
+	-->
+
+	<p>&copy With ❤️ by Unknown 2022</p>
+</body>
+</html>
