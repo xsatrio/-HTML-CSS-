@@ -1,0 +1,55 @@
+/*selektor: tag html;
+
+selektor{
+	property1: nilai;
+	property2: nilai;
+}
+
+contoh_color{
+	background-color: darkgray;
+	background-color: #dfdfdf;
+	background-color: rgb(255, 0, 0);
+}*/
+
+body{
+/*	
+	background-color: #dfdfdf;
+	background-image: url("Youtube.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: right;
+	background-size: 100px;
+*/
+	background: #dfdfdf url("garuda.png") no-repeat fixed center 100px;
+	background-size: 100px;
+}
+
+h1{
+	color: darkcyan;
+	text-align: center;
+	text-decoration: underline;
+}
+
+h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#text_panjang{
+	text-align: justify;
+	text-indent: 30px;
+	letter-spacing: 0px;
+}
+
+.halaman1{
+	color: red;
+}
+
+#menu_web{
+	background: yellow;
+}
+
+
+
+
+
