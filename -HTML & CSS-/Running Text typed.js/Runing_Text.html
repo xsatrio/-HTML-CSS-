@@ -3,14 +3,26 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script type="jquery-2.1.3.js"></script>
-	<script type="typed.js"></script>
+	<title>type.js</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>Running Text typed.js</title>
 </head>
 <body>
-	<div id="navbar"><span>typed.js</span></div>
-	<div id="wrapper" class="wrapper"></div>
-	
+	<div class="banner-area">
+		<h2>YOUR NOT  <span class="type"></span></h2>
+	</div>
+	<script src="typed.js"></script>
+	<script>
+		  var typed3 = new Typed('.type', {
+		    strings: [
+		    'UGLY', 
+		    'ALONE', 
+		    'BAD'
+		    ],
+		    typeSpeed: 110,
+		    backSpeed: 70,
+		    smartBackspace: true,
+		    loop: true
+		  });
+	</script>
 </body>
 </html>

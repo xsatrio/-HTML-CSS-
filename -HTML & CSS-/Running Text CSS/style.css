@@ -21,7 +21,7 @@ body{
 
 .wrapper .static-txt{
 	color: fff;
-	font-size: 60px;
+	font-size: 4.5em;
 	font-weight: 400;
 }
 
@@ -29,17 +29,17 @@ body{
 	margin-left: 15px;
 	height: 90px;
 	line-height: 90px;
-	/*overflow: hidden;*/
+	overflow: hidden;
 }
 
 .dynamic-txts li{
 	list-style: none;
 	color: #fc6d6d;
-	font-size: 60px;
+	font-size: 4.5em;
 	font-weight: 500;
 	position: relative;
 	top: 0;
-	animation: slide 12s steps(0) infinite;
+	animation: slide 12s steps(4) infinite;
 }
 
 @keyframes slide{
@@ -54,7 +54,7 @@ body{
 	line-height: 90px;
 }
 
-/*.dynamic-txts li span::after{
+.dynamic-txts li span::after{
 	content: "";
 	position: absolute;
 	left: 0;
@@ -63,7 +63,7 @@ body{
 	background: #343f4f;
 	border-left: 2px solid #fc6d6d;
 	animation: typing 3s steps(10) infinite;
-}*/
+}
 
 @keyframes typing{
 	40%,
