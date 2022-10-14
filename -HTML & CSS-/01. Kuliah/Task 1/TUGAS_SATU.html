@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script>
+	function myFunction() {
+	  var x = document.getElementById("password");
+	  if (x.type === "password") {
+		x.type = "text";
+	  } else {
+		x.type = "password";
+	  }
+	}
+	</script>
+	
+    <title>Tugas 1</title>
+	
+    <!--
+        Name    : Satrio Mukti Prayoga
+        NIM     : 211351137
+        Class   : IF Malam B
+    -->
+	
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td rowspan="9">
+                <img src="img_chania.jpg" alt="Flowers in Chania"/>
+            </td>
+            <td colspan="3">
+                <h1>Input data pendaftaran</h1>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">E-mail</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="email" name="email" id="email">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="password">Password</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="password" name="password" id="password">
+				<input type="checkbox" onclick="myFunction()">Show Password
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="gender">Jenis Kelamin</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Laki-Laki</label>
+                <br />
+                <input type="radio" name="gender" id="female">
+                <label for="female">Perempuan</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="dob">Tangal Lahir</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="date" name="dob" id="dob">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="hobby">Hobby</label>
+            </td>
+            <td>:</td>
+            <td>
+                <select name="hobby" id="hobby">
+                    <option value="gadget">Gadget</option>
+                    <option value="bicyle">Bersepeda</option>
+                    <option value="automotive">Otomotif</option>
+                    <option value="sleep">Tidur</option>
+                    <option value="eat">Makan</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="vehicle">Kendaraan yang dimiliki</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="checkbox" name="vehicle" id="bicycle">
+                Sepeda
+                <br />
+                <input type="checkbox" name="vehicle" id="motorcycle">
+                Motor
+                <br />
+                <input type="checkbox" name="vehicle" id="car">
+                Mobil
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="message">Pesan dan kesan</label>
+            </td>
+            <td>:</td>
+            <td>
+                <textarea name="message" id="message" cols="45" rows="2"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" align="center">
+                <button>Login</button>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
