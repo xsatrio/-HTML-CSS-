@@ -16,8 +16,7 @@
 
 <body>
 	<div class="w-full d-flex align-items-center flex-column py-4 bg-primary text-light">
-		<h1 class="fs-1 fw-semibold">My First Bootstrap 5 page</h1>
-		<p>Resize this responsive page to see effect</p>
+		<h1 class="fs-1 fw-semibold">DASHBOARD ADMIN</h1>
 	</div>
 
 	<nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
@@ -37,6 +36,7 @@
 	            		<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
 	          		</li>
 	        	</ul>
+	        	<a class="btn btn-primary d-flex flex-row-reverse bd-highlight" href="login.php">Logout</a>
 	      	</div>
 	    </div>
 	</nav>
@@ -50,16 +50,16 @@
 			</div>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img src=" ... " class="d-block w-100 img-fluid" alt="Landscape">
+					<img src="1.jpeg" class="d-block w-100 img-fluid" alt="Landscape">
 					<div class="position-absolute top-0 start-50 translate-middle-x text-light">
 						<p>xsat93</p>
 					</div>
 				</div>
 				<div class="carousel-item">
-					<img src=" ... " class="d-block w-100 img-fluid" alt="Landscape">
+					<img src="2.jpg" class="d-block w-100 img-fluid" alt="Landscape">
 				</div>
 				<div class="carousel-item">
-					<img src=" ... " class="d-block w-100 img-fluid" alt="Landscape">
+					<img src="3.jpg" class="d-block w-100 img-fluid" alt="Landscape">
 				</div>
 			</div>
 			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -76,8 +76,7 @@
 	<div class="container">
 		<div class="row">
 	  		<div class="col-4">
-	  			<h2>Some link ...</h2>
-				<p>Lorem Ipsum sit</p>
+	  			<h2>Menu</h2>
 	  			<ul class="nav flex-column nav-pills">
 					<li class="nav-item">
 						<a class="nav-link active bg-primary" aria-current="page" href="#">Active</a>
@@ -94,24 +93,13 @@
 				</ul>
 	  		</div>
 	  		<div class="col-8">
-				<h1>Title Heading</h1>
-				<p>Some text ... </p>
-				<p>
-				  	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				  	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				  	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				  	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				  	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				  	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
+				<h1>Biodata Admin</h1>
+				<p>Nama : Satrio Mukti Prayoga</p>
+				<p>NIM : 211351137</p>
+				<p>Hobi : Bersepeda, Fotografi, Otomotif, Gadget</p>
 			</div>
 	  	</div>
-	</div>	
-	<a class="btn btn-primary " href="login.php">Logout</a>
-
-	<footer class="w-full d-flex align-items-center flex-column py-4 bg-dark text-light">	Coded by Satrio Mukti Prayoga
-	</footer>
-	
+	</div>
 	<script src="BS5/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
